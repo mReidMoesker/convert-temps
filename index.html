@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mathew Moesker">
+    <meta name="description" content="html, css, javascript, web, seo, web development">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="flex flex-between">
+          <div class="title">
+            <h1>Converter</h1>
+          </div>
+          <nav>
+            <p>Return</p>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="converter-options">
+          <input type="radio" id="cToF" name="conversion" checked>
+          <label for="cToF">Fahrenheit</label>
+          <input type="radio" id="fToC" name="conversion">
+          <label for="fToC">Celsius</label>
+        </div>
+        <div class="converter">
+            <label for="temperature">Temperature:</label>
+            <input type="text" 
+              id="temperature" 
+              placeholder="Enter Temperature"
+              >
+            <button id="convertBtn">Convert</button>
+          </div>
+          <div class="result">
+            <p id="resultText"></p>
+          </div>
+          <div>
+            <button id="toggleBtn">Toggle Dark Mode</button>
+          </div>
+        <script src="./assets/js/script.js"></script>
+      </main>
+    </div>
+  </body>
+</html>
