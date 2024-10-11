@@ -1,4 +1,4 @@
-#Welcome!
+<h1>Welcome!</h1>
 
 This is a simple JavaScript, CSS and HTML webpage that converts Celsius to Farenheit, and so on.
 
